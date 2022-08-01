@@ -1,0 +1,32 @@
+{
+  "name": "unit-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "mocha": "mocha --require babel-core/register --require babel-polyfill",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifeoluwah21/unit-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifeoluwah21/unit-tests/issues"
+  },
+  "homepage": "https://github.com/ifeoluwah21/unit-tests#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.7.0"
+  }
+}
